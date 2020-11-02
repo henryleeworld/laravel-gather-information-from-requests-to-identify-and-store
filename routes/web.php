@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\VisitorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('gather', 'VisitorController@gather');
+Route::get('gather', [VisitorController::class, 'gather']);

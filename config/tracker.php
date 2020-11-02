@@ -56,7 +56,7 @@ return [
      *     '172.17.0.0/255.255.0.0'
      */
     'do_not_track_ips' => [
-        //'127.0.0.0/24', /// range 127.0.0.1 - 127.0.0.255
+        // '127.0.0.0/24', /// range 127.0.0.1 - 127.0.0.255
     ],
 
     /*
@@ -371,4 +371,9 @@ return [
      * Stats Panel controllers namespace
      */
     'stats_controllers_namespace' => 'PragmaRX\Tracker\Vendor\Laravel\Controllers',
+
+    /*
+     * Set a default user agent
+     */
+    'default_user_agent' => ''
 ];
