@@ -19,9 +19,9 @@
     "require-dev": {
         "facade/ignition": "^2.17",
         "fakerphp/faker": "^1.23.0",
-        "mockery/mockery": "^1.6.4",
+        "mockery/mockery": "^1.6.6",
         "nunomaduro/collision": "^5.11",
-        "phpunit/phpunit": "^9.6.10"
+        "phpunit/phpunit": "^9.6.11"
     },
     "config": {
         "optimize-autoloader": true,
